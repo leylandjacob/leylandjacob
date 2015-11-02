@@ -13225,3 +13225,48 @@ body {
 .alert-message p {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 480px) {
+  /* line 3, _scss/_04-pages/_base.scss */
+  .nav .nav-link {
+    font-size: .8rem;
+  }
+
+  /* line 7, _scss/_04-pages/_base.scss */
+  h1 {
+    font-size: 2rem;
+  }
+
+  /* line 10, _scss/_04-pages/_base.scss */
+  .btn-lg, .btn-group-lg > .btn {
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 18, _scss/_04-pages/_base.scss */
+  .project .display-4 {
+    font-size: 3rem;
+    max-width: 100%;
+  }
+  /* line 22, _scss/_04-pages/_base.scss */
+  .project .role {
+    display: block;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  /* line 26, _scss/_04-pages/_base.scss */
+  .project .role + .role {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+  /* line 30, _scss/_04-pages/_base.scss */
+  .project .role span {
+    display: block;
+    width: 100%;
+  }
+}

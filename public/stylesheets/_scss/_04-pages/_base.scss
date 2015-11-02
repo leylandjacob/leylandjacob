@@ -1,0 +1,36 @@
+@include media(max-width $screen-xs) {
+  .nav {
+    .nav-link {
+      font-size: .8rem;
+    }
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .btn-lg {
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 100%;
+  }
+}
+.project {
+  @include media(max-width $screen-xs) {
+    .display-4 {
+      font-size: 3rem;
+      max-width: 100%;
+    }
+    .role {
+      display: block;
+      width: 100%;
+      @include border-bottom-radius(0);
+      & + .role {
+        @include border-top-radius(0);
+        @include border-bottom-radius(.25rem);
+      }
+      span {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
