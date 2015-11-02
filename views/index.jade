@@ -1,0 +1,46 @@
+extends layout
+
+block content
+	.container.p-a-f
+		.row
+			.col-sm-12.text-center
+				h1 Leyland Jacob Elia
+				p.lead Jack of all trades, master of none.
+				
+				nav.nav.m-t-lg
+					a.nav-link.p-a.font--thin(href="/articles", title="Articles") Articles
+					a.trigger-scroll-to-projects.nav-link.p-a.font--thin(href="#", title="Projects") Things I've Built
+					a.nav-link.p-a.font--thin(href="mailto:#{config.company.email.main}", title="Say Hello") Contact
+					
+	each project, index in projects
+		.p-a-f(style="background-color: #{project.color}", data-project-id=index+1 )
+			.container
+				.col-sm-12
+					if project.url
+						a.no-dec(href=project.url, title=project.name, target="_blank")
+							h1.display-4.font--semibold.color--white #{project.name}
+					else
+						h1.display-4.font--semibold.color--white #{project.name}
+				.col-sm-8
+					p.lead.color--white.m-b-lg #{project.tagline}
+					span.label.font--normal.p-a-half.m-r(class="#{project.status === 'SOLD' ? 'bg--red' : project.status === 'CLOSED' ? 'bg--red' : 'bg--green'}") #{project.status}
+					span.label.bg--white.color--gray-darker.font--normal.p-a-half
+						each role, index in project.roles
+							span.p-a-half #{role}
+							if index != project.roles.length - 1 
+								span.p-a-half |
+	.container.p-a-f
+		.row
+			.col-sm-12.text-center
+				h1.m-b-lg What's our next project?
+				a.btn.btn-lg.btn-blue.color--white(href="mailto:#{config.company.email.main}", title="Say Hello") Reach Out and Say Hello
+				
+	.container
+		.row
+			.col-sm-12.text-center
+				nav.nav.m-t-lg
+					a.nav-link.p-a.font--thin(href="/articles", title="Articles") Articles
+					a.nav-link.p-a.font--thin(href="https://twitter.com/#{config.company.social.twitter}", title="#{config.company.social.twitter} on Twitter") @#{config.company.social.twitter}
+					a.nav-link.p-a.font--thin(href="mailto:#{config.company.email.main}", title="Say Hello") Contact
+				p.m-a
+					small.text-muted ©#{config.company.copyright} LeylandJacob

@@ -1,0 +1,121 @@
+.btn-blue {
+  background-color: map_get($blue, main);
+  color: white;
+  @include transition(all .2s ease);
+
+  &:hover {
+    background-color: lighten(map_get($blue, main), 5%);
+    color: white;
+  }
+  &:active {
+    background-color: lighten(map_get($blue, main), 5%);
+    color: white;
+  }
+  &:focus {
+    background-color: lighten(map_get($blue, main), 5%);
+    color: white;
+  }
+  &:visited {
+    background-color: lighten(map_get($blue, main), 5%);
+    color: white;
+  }
+}
+
+.btn-blue-outline {
+  background-color: transparent;
+  border: 1px solid map_get($blue, main);
+  color: map_get($blue, main);
+  @include transition(all .2s ease);
+
+  &:hover {
+    border-color: lighten(map_get($blue, main), 5%);
+    color: lighten(map_get($blue, main), 5%);
+  }
+  &:active {
+    border-color: lighten(map_get($blue, main), 5%);
+    color: lighten(map_get($blue, main), 5%);
+  }
+  &:visited {
+    border-color: lighten(map_get($blue, main), 5%);
+    color: lighten(map_get($blue, main), 5%);
+  }
+  &:focus {
+    border-color: lighten(map_get($blue, main), 5%);
+    color: lighten(map_get($blue, main), 5%);
+  }
+}
+
+.btn-green {
+  background-color: map_get($green, main);
+  color: white;
+  @include transition(all .2s ease);
+
+  &:hover {
+    background-color: lighten(map_get($green, main), 5%);
+    color: white;
+  }
+  &:active {
+    background-color: lighten(map_get($green, main), 5%);
+    color: white;
+  }
+  &:focus {
+    background-color: lighten(map_get($green, main), 5%);
+    color: white;
+  }
+  &:visited {
+    background-color: lighten(map_get($green, main), 5%);
+    color: white;
+  }
+}
+
+.btn-green-outline {
+  background-color: transparent;
+  border: 1px solid map_get($green, main);
+  color: map_get($green, main);
+  @include transition(all .2s ease);
+
+  &:hover {
+    border-color: lighten(map_get($green, main), 5%);
+    color: lighten(map_get($green, main), 5%);
+  }
+  &:active {
+    border-color: lighten(map_get($green, main), 5%);
+    color: lighten(map_get($green, main), 5%);
+  }
+  &:focus {
+    border-color: lighten(map_get($green, main), 5%);
+    color: lighten(map_get($green, main), 5%);
+  }
+  &:visited {
+    border-color: lighten(map_get($green, main), 5%);
+    color: lighten(map_get($green, main), 5%);
+  }
+}
+
+.btn-red {
+  background-color: map_get($red, main);
+  color: white;
+  @include transition(all .2s ease);
+
+  &:hover {
+    background-color: lighten(map_get($red, main), 5%);
+    color: white;
+  }
+  &:active {
+    background-color: lighten(map_get($red, main), 5%);
+    color: white;
+  }
+  &:focus {
+    background-color: lighten(map_get($red, main), 5%);
+    color: white;
+  }
+  &:visited {
+    background-color: lighten(map_get($red, main), 5%);
+    color: white;
+  }
+}
+
+.btn-lg {
+  padding-left: 4em;
+  padding-right: 4em;
+}

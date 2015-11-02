@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	if !config.production
+		h1= message
+		h2= error.status
+		pre #{error.stack}
+
+	else
+		.container.p-a-f
+			.row
+				.col-sm-12.text-center
+					h1 This is so embarrassing...
+					p.lead There is nothing to see here. Move along.
+				
+					nav.nav.m-t-lg
+						a.nav-link.p-a.font--thin(href="/articles", title="Articles") Articles
+						a.trigger-scroll-to-projects.nav-link.p-a.font--thin(href="/", title="Projects") Back Home
+						a.nav-link.p-a.font--thin(href="mailto:#{config.company.email.main}", title="Say Hello") Contact

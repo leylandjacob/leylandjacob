@@ -1,0 +1,33 @@
+body, html, .content-wrapper{
+  background-color: #fdfdf9;
+  color: #05728c;
+}
+
+img {
+  max-width: 100%;
+}
+
+a.no-dec {
+  text-decoration: none;
+  
+  &:hover {text-decoration: none;}
+  &:active {text-decoration: none;}
+  &:visited {text-decoration: none;}
+  &:focus {text-decoration: none;}
+}
+
+.p-a-f {
+  padding: 18% 0;
+}
+
+.p-b-f {
+  padding-bottom: 18%;
+}
+
+.p-t-f {
+  padding-top: 18%;
+}
+
+.p-a-half {
+  padding: .5em;
+}

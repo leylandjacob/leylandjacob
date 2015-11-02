@@ -1,0 +1,18 @@
+doctype html
+html
+	block head
+		include ./meta
+		
+		link( rel="stylesheet", type="text/css", href="//cloud.typography.com/7062954/725688/css/fonts.css")
+		link(rel='stylesheet', href='/stylesheets/style.css')
+
+		script(data-main='/javascripts/main.js' src='/javascripts/require.js')
+
+		script(type='text/javascript').
+			define('config', !{JSON.stringify(config)});
+
+		script(type='text/javascript').
+			define('data', !{JSON.stringify(data)});
+	body
+	
+		block content

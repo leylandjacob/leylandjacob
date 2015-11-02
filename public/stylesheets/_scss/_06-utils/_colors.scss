@@ -1,0 +1,104 @@
+// -----------------------------------------------------------------------------
+//
+// -----------------------------------------------------------------------------
+//Gray
+.color--white {
+  color: white;
+  &:hover {
+    color: white;
+  }
+}
+.bg--white {background-color: white;}
+
+// Gray
+$gray: (
+    lightest: #eeeeee,
+    lighter:		lighten(#6f7a87, 25%),
+    light: 		lighten(#6f7a87, 10%),
+    main: 		#6f7a87,
+    dark: 		darken(#6f7a87, 10%),
+    darker: 		darken(#6f7a87, 25%),
+);
+
+.color--gray-lighter {color: map_get($gray, lighter);}
+.color--gray-light {color: map_get($gray, light);}
+.color--gray {color: map_get($gray, main);}
+.color--gray-dark {color: map_get($gray, dark);}
+.color--gray-darker {color: map_get($gray, darker);}
+.bg--gray-lighter {background-color: map_get($gray, lighter);}
+.bg--gray-light {background-color: map_get($gray, light);}
+.bg--gray {background-color: map_get($gray, main);}
+.bg--gray-dark {background-color: map_get($gray, dark);}
+.bg--gray-darker {background-color: map_get($gray, darker);}
+
+// Gree
+$green: (
+    lighter:	lighten(#47BA82, 25%),
+    light: 		lighten(#47BA82, 10%),
+    main: 		#47BA82,
+    dark: 		darken(#47BA82, 10%),
+    darker: 	darken(#47BA82, 25%),
+);
+
+.color--green-lighter {color: map_get($green, lighter);}
+.color--green-light {color: map_get($green, light);}
+.color--green {color: map_get($green, main);}
+.color--green-dark {color: map_get($green, dark);}
+.color--green-darker {color: map_get($green, darker);}
+.bg--green-lighter {background-color: map_get($green, lighter);}
+.bg--green-light {background-color: map_get($green, light);}
+.bg--green {background-color: map_get($green, main);}
+.bg--green-dark {background-color: map_get($green, dark);}
+.bg--green-darker {background-color: map_get($green, darker);}
+
+$blue: (
+    lighter:		lighten(#3a8ce7, 25%),
+    light: 		lighten(#3a8ce7, 10%),
+    main: 		#3a8ce7,
+    dark: 		darken(#3a8ce7, 10%),
+    darker: 		darken(#3a8ce7, 25%),
+);
+
+.color--blue-lighter {color: map_get($blue, lighter);}
+.color--blue-light {color: map_get($blue, light);}
+.color--blue {color: map_get($blue, main);}
+.color--blue-dark {color: map_get($blue, dark);}
+.color--blue-darker {color: map_get($blue, darker);}
+.bg--blue-lighter {background-color: map_get($blue, lighter);}
+.bg--blue-light {background-color: map_get($blue, light);}
+.bg--blue {background-color: map_get($blue, main);}
+.bg--blue-dark {background-color: map_get($blue, dark);}
+.bg--blue-darker {background-color: map_get($blue, darker);}
+
+$red: (
+  lighter:		lighten(#f2655c, 25%),
+  light: 		lighten(#f2655c, 10%),
+  main: 		#f2655c,
+  dark: 		darken(#f2655c, 10%),
+  darker: 		darken(#f2655c, 25%),
+);
+
+.color--red-lighter {color: map_get($red, lighter);}
+.color--red-light {color: map_get($red, light);}
+.color--red {color: map_get($red, main);}
+.color--red-dark {color: map_get($red, dark);}
+.color--red-darker {color: map_get($red, darker);}
+.bg--red-lighter {background-color: map_get($red, lighter);}
+.bg--red-light {background-color: map_get($red, light);}
+.bg--red {background-color: map_get($red, main);}
+.bg--red-dark {background-color: map_get($red, dark);}
+.bg--red-darker {background-color: map_get($red, darker);}
+.border-t--red{border-top: 1px solid map_get($red, main);}
+.border-b--red{border-bottom: 1px solid map_get($red, main);}
+// -----------------------------------------------------------------------------
+// Social Icons
+// -----------------------------------------------------------------------------
+$social: (
+        twitter: 		#78cdf0,
+        facebook: 		#537bbd,
+        instagram: 		#517fa4,
+        youtube: 		#d34836,
+        snapchat: 		#fffc00,
+        pinterest:		#cb2027,
+        google: 		#dd4b39
+)

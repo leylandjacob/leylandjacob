@@ -1,0 +1,11 @@
+{
+  "name": "leylandjacob",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "backbone": "*",
+    "bowser": "*",
+    "jquery": "*",
+    "underscore": "*"
+  }
+}

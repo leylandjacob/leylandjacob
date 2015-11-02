@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Feedback",
+    "tagline": "Save time, eliminate confusion, and finish websites better and faster. Collect feedback directly on any website and put it all in one place.",
+    "color": "#5199ea",
+    "url": "",
+    "status": "In Development",
+    "roles": [
+      "Idea", "Product", "Development"
+    ]
+  },
+  {
+    "name": "Bamboo Creative",
+    "tagline": "We design solutions that help organizations innovate, grow, and bring new ideas to life.",
+    "color": "#3cbeaf",
+    "url": "https://bamboocreative.com",
+    "status": "On Going",
+    "roles": [
+      "Ideas", "Products", "Branding", "Development", "Keeping the Party Going"
+    ]
+  },
+  {
+	"name": "PocketRocket",
+    "tagline": "We send you an article from your Pocket to your Inbox everyday, then archive it for you.",
+    "color": "#e62346",
+    "url": "https://getpocketrocket.com",
+    "status": "On Going",
+    "roles": [
+      "Idea", "Product", "Development", "Support"
+    ]
+  },
+  {
+    "name": "Booklaunch",
+    "tagline": "Beautiful, Professional Websites for your Book in Less Than 10 Minutes",
+    "color": "#f3791f",
+    "url": "https://booklaunch.io",
+    "status": "On going",
+    "roles": [
+      "Idea", "Product", "Development", "Marketing", "Support"
+    ]
+  },
+  {
+    "name": "Lists.io",
+    "tagline": "Make and share lists of your favorite things. A hackathon project built and launched by a group of friends in only 32 hours.",
+    "color": "#f2d118",
+    "url": "https://lists.io",
+    "status": "Supporting",
+    "roles": [
+      "Idea", "Product", "Development", "Marketing", "Support"
+    ]
+  },
+  {
+    "name": "The Snippet App",
+    "tagline": "A new format to read and write. Read stories, watch videos, listen to audio and join the social conversation—all within a book.",
+    "color": "#3bac95",
+    "url": "https://thesnippetapp.com",
+    "status": "Supporting",
+    "roles": [
+      "Product", "Development", "Marketing", "Support"
+    ]
+  },
+  {
+    "name": "Broadacre Coffee",
+    "tagline": "We brought a rotating variety of delicious coffee from the worlds best roasters to the heart of Downtown Sacramento.",
+    "color": "#3392d2",
+    "url": "",
+    "status": "SOLD",
+    "roles": [
+      "Co-founder", "Idea", "Built", "Barista", "Marketing", "Business"
+    ]
+  },
+  {
+    "name": "Pause Lounge & Kitchen",
+    "tagline": "An attempt to bring classic craft cocktails and high end small plates in a modern and approachable experience. Failed miserably. Ask me about it.",
+    "color": "#454545",
+    "url": "",
+    "status": "CLOSED",
+    "roles": [
+      "Co-founder", "Idea", "Built", "Marketing", "Business"
+    ]
+  },
+  {
+    "name": "Bloom Coffee & Tea",
+    "tagline": "We created the first quality \"third wave\" coffee experience and hipster paradise to the suburbs of Roseville, CA.",
+    "color": "#550d10",
+    "url": "",
+    "status": "SOLD",
+    "roles": [
+      "Co-founder", "Idea", "Built", "Barista", "Marketing", "Business"
+    ]
+  }
+]
+
+
