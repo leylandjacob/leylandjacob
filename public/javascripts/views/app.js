@@ -9,9 +9,8 @@ define([
 	'underscore',
 	'backbone',
 	'utils',
-	'models/user'
 	
-],	function($, _, Backbone, Utils, UserModel){
+],	function($, _, Backbone, Utils){
 	
 	
 		var AppView = Backbone.View.extend({
@@ -46,6 +45,7 @@ define([
 			},
 
 			scrollToProjects: function(event){
+				event.preventDefault();
 				$('html, body').animate({
 					scrollTop: $('[data-project-id="1"]').offset().top
 				}, 500);
