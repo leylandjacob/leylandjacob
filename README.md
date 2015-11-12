@@ -1,1 +1,3 @@
-POSTGRES_HOST=ec2-107-21-219-142.compute-1.amazonaws.com POSTGRES_USER=lrkycopsasjksd POSTGRES_PASSWORD=Mh5HvJSkwEJ6GP27mRIlpcqPDr POSTGRES_DB=df7ioojkj3uqi7 POSTGRES_PORT=5432 npm start
+# LeylandJacob
+Jack of all trades, master of none.  
+[leylandjacob.com](http://leylandjacob.com)
