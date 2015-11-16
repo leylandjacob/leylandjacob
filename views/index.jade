@@ -9,10 +9,10 @@ block content
 			nav.nav.m-t-lg
 				a.nav-link.p-a.font--thin(href="/articles", title="Articles") Articles
 				a.trigger-scroll-to-projects.nav-link.p-a.font--thin(href="#", title="Projects") Things I've Built
-				a.nav-link.p-a.font--thin(href="mailto:#{config.company.email.main}", title="Say Hello") Contact
+				a.nav-link.p-a.font--thin(href="https://calendly.com/leylandjacob", title="Schedule a Chat") Let's Chat
 					
 	each project, index in projects
-		.p-a-f.project(style="background-color: #{project.color}", data-project-id=index+1 )
+		.p-a-f.project(style="background-color: #{project.color}; position: relative", data-project-id=index+1 )
 			.container
 				.col-sm-12
 					if project.url
@@ -32,12 +32,14 @@ block content
 		.col-sm-12.text-center
 			h1.m-b-lg What's our next project?
 			a.btn.btn-lg.btn-blue.color--white(href="mailto:#{config.company.email.main}", title="Say Hello") Reach Out and Say Hello
-				
+			.clearfix
+			a.nav-link.p-a.font--thin.small(href="https://calendly.com/leylandjacob", title="Schedule a Chat") or Schedule a Chat
+
 	.container
-		.col-sm-12.text-center
+		.text-center
 			nav.nav.m-t-lg
 				a.nav-link.p-a.font--thin(href="/articles", title="Articles") Articles
 				a.nav-link.p-a.font--thin(href="https://twitter.com/#{config.company.social.twitter}", title="#{config.company.social.twitter} on Twitter") @#{config.company.social.twitter}
-				a.nav-link.p-a.font--thin(href="mailto:#{config.company.email.main}", title="Say Hello") Contact
+				a.nav-link.p-a.font--thin(href="mailto:#{config.company.email.main}", title="Say Hello") Email Me
 			p.m-a
 				small.text-muted ©#{config.company.copyright} LeylandJacob
