@@ -1,10 +1,10 @@
 [
   {
-    "name": "Candid",
-    "tagline": "Save time, eliminate confusion, and finish websites better and faster. Collect feedback directly on any website and put it all in one place.",
-    "color": "#5199ea",
-    "url": "",
-    "status": "In Development",
+    "name": "Thoughtful",
+    "tagline": "Thoughtful helps you stay connected to people and build better relationships.",
+    "color": "#0275d8",
+    "url": "https://thoughtful.online",
+    "status": "Super Alpha",
     "roles": [
       "Idea", "Product", "Development"
     ]
@@ -90,5 +90,3 @@
     ]
   }
 ]
-
-
