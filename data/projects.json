@@ -43,7 +43,7 @@
     "name": "Lists.io",
     "tagline": "Make and share lists of your favorite things. A hackathon project built and launched by a group of friends in only 32 hours.",
     "color": "#f2d118",
-    "url": "https://lists.io",
+    "url": "http://lists.io",
     "status": "Wound Up",
     "roles": [
       "Idea", "Product", "Development", "Marketing", "Support"
