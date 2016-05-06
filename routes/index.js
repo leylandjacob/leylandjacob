@@ -8,5 +8,9 @@ router.get('/', function(req, res, next) {
     projects: projects
   });
 });
+/* GET home page. */
+router.get('/candid', function(req, res, next) {
+  res.render('candid');
+});
 
 module.exports = router;
